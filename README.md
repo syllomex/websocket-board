@@ -1,6 +1,6 @@
 ## Board system with ReactJS and Socket IO
 ---
-## Sistema de Board com ReactJS e Socket IO
+## Sistema de Quadros com ReactJS e Socket IO
 
 #### Você pode ver a página em funcionamento [clicando aqui](https://leonardosantos.herokuapp.com/socketboard). Abra duas páginas e mova, crie ou delete os Cards para ver o WebSocket em ação.
 
