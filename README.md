@@ -2,7 +2,7 @@
 ---
 ## Sistema de Board com ReactJS e Socket IO
 
-#### Você pode ver a página em funcionamento [clicando aqui](https://leonardosantos.herokuapp.com/socketboard). Abra duas páginas, mova, crie ou delete os Cards para ver o WebSocket em ação.
+#### Você pode ver a página em funcionamento [clicando aqui](https://leonardosantos.herokuapp.com/socketboard). Abra duas páginas e mova, crie ou delete os Cards para ver o WebSocket em ação.
 
 Esse é um sistema simples de Quadros inspirado no Trello.
 
