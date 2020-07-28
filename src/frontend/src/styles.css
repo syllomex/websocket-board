@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: auto;
+}
+
+.board {
+  display: flex;
+
+  height: 100vh;
+  overflow-x: auto;
+}
+
+.board .create {
+  cursor: pointer;
+  display: block;
+
+  width: 300px;
+  min-width: 300px;
+  border: none;
+
+  color: #888;
+
+  font-size: 2em;
+}
+
+.list {
+  height: 100%;
+  width: 300px;
+  min-width: 300px;
+  margin-right: 20px;
+  padding-top: 10px;
+  background-color: rgba(240, 240, 240, 0.7);
+  border: 5px solid rgba(240, 240, 240, 0);
+  overflow-y: auto;
+}
+
+.card {
+  cursor: grab;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 95%;
+  margin: 0 auto 10px;
+  min-height: 120px;
+
+  background-color: #fff;
+
+  padding: 1rem;
+
+  color: #222;
+  font-size: 1.5rem;
+}
+.card:active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+}
+.card button {
+  cursor: pointer;
+  margin-left: auto;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  background-color: rgba(233, 80, 80, 1);
+  padding: 0.2rem 0.8rem;
+  font-size: 2rem;
+}
+.list .create-card {
+  cursor: pointer;
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  min-height: 120px;
+  background-color: rgb(60, 150, 255);
+}
+.list .delete-list {
+  cursor: pointer;
+  display: block;
+
+  border: none;
+  width: 95%;
+  margin: 0 auto;
+  
+  background-color: rgba(233, 80, 80, 1);
+  color: #fff;
+  font-size: 1.3rem;
+  
+  margin-top: 1rem;
+  padding: 0.3rem 0;
+}
