@@ -7,7 +7,7 @@
 
 Esse é um sistema simples de Quadros inspirado no Trello.
 
-Pelo foco não ser o design, optei por uma estilização simples de CSS puro (dessa vez sem Styled Components), porém limpo e intuitivo.
+Pelo foco não ser o design, optei por uma estilização simples de CSS puro, porém limpo e legível.
 
 Os pontos que gostaria de destacar nesse projeto são:
 - O sistema de Drag and Drop desenvolvido a partir do existente no próprio HTML, ou seja, sem nenhum plugin ou biblioteca.
